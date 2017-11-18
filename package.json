@@ -1,0 +1,15 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "A simple chat app using only raw javascript, HTML, node, express, and body-parser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Coffeng",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
