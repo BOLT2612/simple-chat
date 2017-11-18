@@ -19,7 +19,8 @@ var sendNewMessage = function() {
     'cName' : cName.value,
     'msg2server' : cMsg.value
   }
-  console.log("invoked! data2send = " + JSON.stringify(data2Send));
+  //console.log("invoked! data2send = " + JSON.stringify(data2Send));
+  cMsg.value = '';
   fetch('http://localhost:3000/cName', 
     { 
       method: 'POST',
