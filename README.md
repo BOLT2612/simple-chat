@@ -12,6 +12,6 @@ This is a quick coding exercise in building a (non-production) chat app using ju
 6. You can enter a name, and a message.
 7. Click send.
 
-The message you send will appear in all the brower windows with this client.
+The message you send will appear in all the browser windows with this client.
 
 The message list has a maximum length of 20 messages.
